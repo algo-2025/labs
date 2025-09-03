@@ -1,6 +1,9 @@
 [submodule "lab1"]
 	path = lab1
 	url = git@github.com:algo-2025/lab1.git
+[submodule "lab2"]
+	path = lab2
+	url = git@github.com:algo-2025/lab2.git
 [submodule "lab3"]
 	path = lab3
 	url = git@github.com:algo-2025/lab3.git
