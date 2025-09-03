@@ -1,0 +1,9 @@
+name: Lab1 CI
+
+on:
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    uses: algo-2025/solutions/.github/workflows/lab1.yml@main
