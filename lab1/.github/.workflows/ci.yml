@@ -1,0 +1,21 @@
+name: Lab1 CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Lab1 repository
+      uses: actions/checkout@v3
+
+    - name: Checkout solutions repository
+      uses: actions/checkout@v3
+      with:
+        repository: algo-2025/solutions
+        path: solutions
