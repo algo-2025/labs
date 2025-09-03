@@ -1,7 +1,3 @@
-# Subtrees configuration file
-# Format: prefix repository_url branch
-# This file is used by scripts to manage all subtrees in bulk
-
 lab1 https://github.com/algo-2025/lab1.git main
 lab2 https://github.com/algo-2025/lab2.git main
 lab3 https://github.com/algo-2025/lab3.git main
