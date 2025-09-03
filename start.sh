@@ -5,3 +5,6 @@ while read prefix repo branch; do
     git subtree add --prefix="$prefix" "$repo" "$branch" --squash
 done < .subtrees
 
+git add .
+git commit -am 'feat: labs init'
+git push
