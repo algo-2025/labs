@@ -1,9 +1,20 @@
-name: Lab1 CI
+name: Lab1
 
 on:
+  push:
+    branches: [ "main" ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+  issues: read
+  checks: write
 
 jobs:
-  test:
-    uses: algo-2025/solutions/.github/workflows/lab1.yml@main
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: algo-2025/actions@main
