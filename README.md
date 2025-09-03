@@ -33,9 +33,12 @@
 
 ## Как начать работу
 
-1. Клонируйте репозиторий
-2. Выполните скрипт (см. п. Подготовка к работе)
+1. Клонируйте репозиторий  
+![telegram-cloud-photo-size-2-5316852436943633298-x](https://github.com/user-attachments/assets/b97bcd2c-57a3-4db9-b3c3-c64fd844319d)
+2. Выполните скрипт (см. п. Подготовка к работе)  
+![telegram-cloud-photo-size-2-5316852436943633299-x](https://github.com/user-attachments/assets/021f124d-4ac8-42b0-9053-75b9f76a972c)
 3. Перейдите в папку нужной лабораторной работы
+![telegram-cloud-photo-size-2-5316852436943633301-x](https://github.com/user-attachments/assets/c980e5ec-6b13-4dcc-bd8a-62287487904c)
 4. Прочитайте `README.md` с описанием задания
 5. Приступайте к выполнению
 
