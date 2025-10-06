@@ -162,7 +162,7 @@ const char* day_of_week(int day_num) {
 int count_digits(int n) {
     int counter = 0;
     do {
-    // обработка последней цифры
+    // с помощью целочисленного деления на 10 считаем сколько разрядов в числе
         n /= 10;
         counter++;
 } while (n > 0);
@@ -174,7 +174,7 @@ int reverse_number(int n) {
     int digit = 0;
     int result = 0;
     do {
-    // обработка последней цифры
+    // получаем последнюю цифру числа и дописымваем её как новый разряд
     digit = n % 10;
     n /= 10;
     result = result * 10 + digit;
