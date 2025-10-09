@@ -52,6 +52,7 @@ int triangle_exists(int a, int b, int c) {
 
 // Задача 6 - Класс оценок
 const char* get_grade(int score) {
+    if (score < 0 || score > 103) return "некорректно";
     if (score < 60) return "неудовлетворительно";
     if (score > 59 && score <= 74) return "удовлетворительно";
     if (score > 74 && score <= 90) return "хорошо";
@@ -181,4 +182,3 @@ int reverse_number(int n) {
 } while (n > 0);
 return result;
 }
-
